@@ -1,0 +1,1758 @@
+REST Auth Log 
+[2025-12-03 20:53:10] LOGIN failed (user not found): liliana
+[2025-12-03 20:57:43] REGISTER success: liliana
+[2025-12-03 20:57:52] LOGIN success: liliana
+[2025-12-03 20:58:11] LOT CREATED: ID=16, Title='liliana lot python', Creator='liliana', Start='2025-12-03T19:03:01Z', Duration=5 min
+[2025-12-03 20:58:53] LOT CREATED: ID=17, Title='lot 17', Creator='liliana', Start='2025-12-03T19:03:37Z', Duration=5 min
+[2025-12-03 21:02:02] REGISTER success: liliana b
+[2025-12-03 21:02:13] LOGIN failed (password mismatch): liliana b
+[2025-12-03 21:02:17] LOGIN success: liliana b
+[2025-12-03 21:11:01] LOGIN success: liliana
+[2025-12-03 21:11:13] LOT DELETED: ID=16, Deleter='liliana'
+[2025-12-03 21:11:35] LOT CREATED: ID=18, Title='cat picture', Creator='liliana', Start='2025-12-03T19:16:17Z', Duration=5 min
+[2025-12-03 21:11:56] LOT CREATED: ID=19, Title='nice watch', Creator='liliana', Start='2025-12-03T19:15:37Z', Duration=5 min
+[2025-12-03 21:13:33] LOGIN success: liliana b
+[2025-12-03 21:23:19] LOGIN success: liliana
+[2025-12-03 21:23:38] LOT CREATED: ID=20, Title='lotik', Creator='liliana', Start='2025-12-03T19:28:29Z', Duration=5 min
+[2025-12-03 21:25:52] LOGIN failed (password mismatch): liliana b
+[2025-12-03 21:25:58] LOGIN success: liliana b
+[2025-12-03 21:31:51] LOGIN success: liliana
+[2025-12-03 21:32:11] LOGIN success: liliana b
+[2025-12-03 21:32:18] BID PLACED: Lot ID=20, User='liliana b', Amount=30.00
+[2025-12-03 21:32:24] BID PLACED: Lot ID=20, User='liliana b', Amount=50.00
+[2025-12-03 21:32:34] BID PLACED: Lot ID=20, User='liliana', Amount=55.00
+[2025-12-03 21:32:50] BID PLACED: Lot ID=20, User='liliana', Amount=60.00
+[2025-12-03 21:33:03] BID PLACED: Lot ID=20, User='liliana b', Amount=70.00
+[2025-12-03 21:33:19] BID PLACED: Lot ID=20, User='liliana b', Amount=80.00
+[2025-12-03 21:57:11] LOGIN success: liliana
+[2025-12-03 21:57:59] LOGIN success: liliana
+[2025-12-03 21:58:10] LOT DELETED: ID=19, Deleter='liliana'
+[2025-12-03 21:58:16] LOT DELETED: ID=17, Deleter='liliana'
+[2025-12-03 21:58:21] LOT DELETED: ID=18, Deleter='liliana'
+[2025-12-03 21:58:49] LOT CREATED: ID=21, Title='lot at nignt', Creator='liliana', Start='2025-12-03T20:03:26Z', Duration=5 min
+[2025-12-03 21:59:19] LOGIN success: liliana b
+[2025-12-03 22:03:48] LOGIN success: liliana
+[2025-12-03 22:03:55] BID PLACED: Lot ID=21, User='liliana', Amount=50.00
+[2025-12-03 22:05:20] LOGIN success: liliana b
+[2025-12-03 22:05:28] BID PLACED: Lot ID=21, User='liliana b', Amount=60.00
+[2025-12-03 22:05:39] BID PLACED: Lot ID=21, User='liliana b', Amount=70.00
+[2025-12-03 22:06:01] BID PLACED: Lot ID=21, User='liliana b', Amount=80.00
+[2025-12-03 22:06:26] BID PLACED: Lot ID=21, User='liliana b', Amount=80.10
+[2025-12-03 22:06:44] BID PLACED: Lot ID=21, User='liliana b', Amount=90.00
+[2025-12-05 21:53:02] REGISTER success: LoadTestCreator
+[2025-12-05 21:53:02] LOGIN success: LoadTestCreator
+[2025-12-05 21:56:44] LOGIN success: LoadTestCreator
+[2025-12-05 21:58:16] REGISTER success: lilianaaa
+[2025-12-05 21:58:30] LOGIN success: lilianaaa
+[2025-12-05 22:02:11] REGISTER success: lb 
+[2025-12-05 22:12:55] REGISTER success: liliput
+[2025-12-05 22:13:06] LOGIN success: liliput
+[2025-12-05 22:13:31] LOT CREATED: ID=22, Title='liliput', Creator='liliput', Start='2025-12-05T20:18:17Z', Duration=5 min
+[2025-12-05 22:15:04] LOGIN success: LoadTestCreator
+[2025-12-05 22:15:04] LOT CREATED: ID=23, Title='REST Stress Test Lot 1764965704', Creator='LoadTestCreator', Start='2025-12-05T20:14:59Z', Duration=5 min
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_1
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_4
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_3
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_5
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_2
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_6
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_7
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_9
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_8
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_10
+[2025-12-05 22:15:04] REGISTER success: rest_load_user_11
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_12
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_15
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_13
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_14
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_16
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_18
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_20
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_19
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_17
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_22
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_21
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_25
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_24
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_26
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_23
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_27
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_28
+[2025-12-05 22:15:05] REGISTER success: rest_load_user_31
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_30
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_29
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_32
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_33
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_35
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_34
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_37
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_36
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_38
+[2025-12-05 22:15:06] REGISTER success: rest_load_user_39
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_41
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_40
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_42
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_43
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_45
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_44
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_46
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_50
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_47
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_49
+[2025-12-05 22:15:07] REGISTER success: rest_load_user_48
+[2025-12-05 22:15:07] BID PLACED: Lot ID=23, User='rest_load_user_31', Amount=100.32
+[2025-12-05 22:15:07] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=100.39
+[2025-12-05 22:15:08] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=100.72
+[2025-12-05 22:15:09] BID PLACED: Lot ID=23, User='rest_load_user_42', Amount=100.88
+[2025-12-05 22:15:09] BID PLACED: Lot ID=23, User='rest_load_user_31', Amount=101.11
+[2025-12-05 22:15:10] BID PLACED: Lot ID=23, User='rest_load_user_38', Amount=101.33
+[2025-12-05 22:15:10] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=101.46
+[2025-12-05 22:15:10] BID PLACED: Lot ID=23, User='rest_load_user_43', Amount=101.51
+[2025-12-05 22:15:11] BID PLACED: Lot ID=23, User='rest_load_user_44', Amount=101.53
+[2025-12-05 22:15:11] BID PLACED: Lot ID=23, User='rest_load_user_47', Amount=101.80
+[2025-12-05 22:15:12] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=101.83
+[2025-12-05 22:15:12] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=102.04
+[2025-12-05 22:15:12] BID PLACED: Lot ID=23, User='rest_load_user_38', Amount=102.14
+[2025-12-05 22:15:13] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=102.27
+[2025-12-05 22:15:13] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=102.36
+[2025-12-05 22:15:13] BID PLACED: Lot ID=23, User='rest_load_user_47', Amount=102.44
+[2025-12-05 22:15:13] BID PLACED: Lot ID=23, User='rest_load_user_48', Amount=102.54
+[2025-12-05 22:15:13] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=102.73
+[2025-12-05 22:15:14] BID PLACED: Lot ID=23, User='rest_load_user_37', Amount=102.80
+[2025-12-05 22:15:14] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=102.85
+[2025-12-05 22:15:15] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=102.96
+[2025-12-05 22:15:15] BID PLACED: Lot ID=23, User='rest_load_user_40', Amount=102.98
+[2025-12-05 22:15:15] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=103.21
+[2025-12-05 22:15:15] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=103.22
+[2025-12-05 22:15:16] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=103.50
+[2025-12-05 22:15:16] BID PLACED: Lot ID=23, User='rest_load_user_37', Amount=103.67
+[2025-12-05 22:15:17] BID PLACED: Lot ID=23, User='rest_load_user_36', Amount=103.79
+[2025-12-05 22:15:17] BID PLACED: Lot ID=23, User='rest_load_user_45', Amount=103.97
+[2025-12-05 22:15:17] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=104.05
+[2025-12-05 22:15:36] LOT DELETED: ID=23, Deleter='LoadTestCreator'
+[2025-12-05 22:21:35] LOGIN success: LoadTestCreator
+[2025-12-05 22:21:35] LOT CREATED: ID=23, Title='REST Stress Test Lot 1764966095', Creator='LoadTestCreator', Start='2025-12-05T20:21:30Z', Duration=5 min
+[2025-12-05 22:21:36] LOGIN success: rest_load_user_2
+[2025-12-05 22:21:36] LOGIN success: rest_load_user_1
+[2025-12-05 22:21:36] LOGIN success: rest_load_user_4
+[2025-12-05 22:21:36] LOGIN success: rest_load_user_6
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_5
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_3
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_9
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_7
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_10
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_8
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_12
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_11
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_14
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_15
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_13
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_17
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_16
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_18
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_21
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_19
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_20
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_22
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_24
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_23
+[2025-12-05 22:21:37] LOGIN success: rest_load_user_25
+[2025-12-05 22:21:37] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=100.40
+[2025-12-05 22:21:37] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=100.97
+[2025-12-05 22:21:37] BID PLACED: Lot ID=23, User='rest_load_user_20', Amount=101.25
+[2025-12-05 22:21:37] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=101.75
+[2025-12-05 22:21:38] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=102.09
+[2025-12-05 22:21:38] BID PLACED: Lot ID=23, User='rest_load_user_22', Amount=102.85
+[2025-12-05 22:21:39] BID PLACED: Lot ID=23, User='rest_load_user_23', Amount=103.21
+[2025-12-05 22:21:39] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=103.61
+[2025-12-05 22:21:39] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=104.41
+[2025-12-05 22:21:40] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=104.58
+[2025-12-05 22:21:40] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=104.70
+[2025-12-05 22:21:40] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=105.49
+[2025-12-05 22:21:40] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=106.02
+[2025-12-05 22:21:40] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=106.29
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=106.55
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=107.03
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=107.14
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_22', Amount=107.69
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=108.20
+[2025-12-05 22:21:41] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=108.35
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_23', Amount=108.92
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=109.72
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=110.22
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=110.51
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=110.82
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=111.28
+[2025-12-05 22:21:42] BID PLACED: Lot ID=23, User='rest_load_user_23', Amount=112.20
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=112.68
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_20', Amount=113.46
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=113.76
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=113.96
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=114.56
+[2025-12-05 22:21:43] BID PLACED: Lot ID=23, User='rest_load_user_23', Amount=114.62
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=114.74
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=114.79
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=115.26
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_22', Amount=115.61
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=115.73
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=116.64
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=116.71
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_23', Amount=117.39
+[2025-12-05 22:21:44] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=117.61
+[2025-12-05 22:21:45] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=117.72
+[2025-12-05 22:21:45] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=118.65
+[2025-12-05 22:21:45] BID PLACED: Lot ID=23, User='rest_load_user_20', Amount=119.46
+[2025-12-05 22:21:46] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=120.19
+[2025-12-05 22:21:46] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=120.64
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=121.01
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=121.81
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_20', Amount=122.55
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=122.92
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=123.20
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=123.52
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_24', Amount=123.93
+[2025-12-05 22:21:47] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=124.84
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_25', Amount=125.78
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=126.19
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=126.67
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_22', Amount=126.93
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_19', Amount=127.74
+[2025-12-05 22:21:48] BID PLACED: Lot ID=23, User='rest_load_user_18', Amount=128.45
+[2025-12-05 22:21:49] BID PLACED: Lot ID=23, User='rest_load_user_21', Amount=128.89
+[2025-12-05 22:21:49] BID PLACED: Lot ID=23, User='rest_load_user_16', Amount=129.34
+[2025-12-05 22:21:49] BID PLACED: Lot ID=23, User='rest_load_user_17', Amount=130.04
+[2025-12-05 22:21:49] BID PLACED: Lot ID=23, User='rest_load_user_20', Amount=130.25
+[2025-12-05 22:22:08] LOT DELETED: ID=23, Deleter='LoadTestCreator'
+[2025-12-05 22:24:22] LOGIN success: LoadTestCreator
+[2025-12-05 22:24:23] LOT CREATED: ID=23, Title='REST Stress Test Lot 1764966262', Creator='LoadTestCreator', Start='2025-12-05T20:24:17Z', Duration=5 min
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_3
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_2
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_1
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_4
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_7
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_5
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_9
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_6
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_8
+[2025-12-05 22:24:23] LOGIN success: rest_load_user_14
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_13
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_11
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_10
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_15
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_17
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_16
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_21
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_12
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_20
+[2025-12-05 22:24:24] LOGIN success: rest_load_user_18
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_19
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_23
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_22
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_26
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_24
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_27
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_28
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_25
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_29
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_30
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_31
+[2025-12-05 22:24:25] LOGIN success: rest_load_user_32
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_33
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_35
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_34
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_36
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_41
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_40
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_39
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_38
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_37
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_43
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_45
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_46
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_44
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_42
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_50
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_48
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_47
+[2025-12-05 22:24:26] LOGIN success: rest_load_user_49
+[2025-12-05 22:24:27] BID PLACED: Lot ID=23, User='rest_load_user_31', Amount=100.12
+[2025-12-05 22:24:27] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.45
+[2025-12-05 22:24:27] BID PLACED: Lot ID=23, User='rest_load_user_37', Amount=100.50
+[2025-12-05 22:24:28] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=100.74
+[2025-12-05 22:24:29] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.88
+[2025-12-05 22:24:31] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.89
+[2025-12-05 22:24:32] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=100.98
+[2025-12-05 22:24:33] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=101.02
+[2025-12-05 22:24:34] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=101.31
+[2025-12-05 22:24:36] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=101.44
+[2025-12-05 22:24:57] LOT DELETED: ID=23, Deleter='LoadTestCreator'
+[2025-12-05 22:36:40] LOGIN success: liliput
+[2025-12-05 22:38:36] LOGIN success: LoadTestCreator
+[2025-12-05 22:38:36] LOT CREATED: ID=23, Title='REST Stress Test Lot 1764967116', Creator='LoadTestCreator', Start='2025-12-05T20:38:31Z', Duration=5 min
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_2
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_5
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_4
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_3
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_1
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_7
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_6
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_8
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_9
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_15
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_10
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_11
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_13
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_14
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_12
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_17
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_16
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_19
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_18
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_20
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_21
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_22
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_23
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_24
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_25
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_27
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_29
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_33
+[2025-12-05 22:38:36] LOGIN success: rest_load_user_31
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_32
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_26
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_28
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_30
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_34
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_37
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_35
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_36
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_38
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_40
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_42
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_43
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_44
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_45
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_48
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_41
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_50
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_39
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_47
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_46
+[2025-12-05 22:38:37] LOGIN success: rest_load_user_49
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_31', Amount=100.25
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.06
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=100.46
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_38', Amount=100.22
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_48', Amount=100.45
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_50', Amount=100.48
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_42', Amount=100.11
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_47', Amount=100.22
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.25
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_34', Amount=100.47
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=100.09
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=100.81
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_46', Amount=100.17
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_40', Amount=100.08
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_48', Amount=100.47
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_38', Amount=100.64
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=100.07
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_31', Amount=100.32
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_44', Amount=100.06
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=100.03
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_47', Amount=100.52
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=100.41
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.54
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_43', Amount=100.36
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_50', Amount=100.58
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_36', Amount=100.33
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_34', Amount=100.77
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=101.18
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=100.27
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_37', Amount=100.36
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_45', Amount=100.16
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_44', Amount=100.14
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=100.31
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_47', Amount=101.00
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.59
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_42', Amount=100.25
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_36', Amount=100.58
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_43', Amount=100.62
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_34', Amount=100.98
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=100.50
+[2025-12-05 22:38:37] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=100.45
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_37', Amount=100.79
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_45', Amount=100.32
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_35', Amount=101.20
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=100.80
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_40', Amount=100.41
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_49', Amount=100.63
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_46', Amount=100.24
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=100.76
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_48', Amount=100.72
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_33', Amount=100.99
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_43', Amount=101.06
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_32', Amount=100.70
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_34', Amount=101.47
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_39', Amount=101.14
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_40', Amount=100.91
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_50', Amount=100.88
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_45', Amount=100.39
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_38', Amount=100.89
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_48', Amount=101.08
+[2025-12-05 22:38:38] BID PLACED: Lot ID=23, User='rest_load_user_41', Amount=101.04
+[2025-12-05 22:39:07] LOT DELETED: ID=23, Deleter='LoadTestCreator'
+[2025-12-05 22:44:58] LOGIN success: LoadTestCreator
+[2025-12-05 22:44:58] LOT CREATED: ID=24, Title='REST Stress Test Lot 1764967498', Creator='LoadTestCreator', Start='2025-12-05T20:44:53Z', Duration=5 min
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_1
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_2
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_4
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_5
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_7
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_8
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_3
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_12
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_6
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_10
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_9
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_13
+[2025-12-05 22:44:58] LOGIN success: rest_load_user_11
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_15
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_16
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_14
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_18
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_19
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_21
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_23
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_20
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_22
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_24
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_17
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_26
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_29
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_28
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_30
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_27
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_25
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_33
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_34
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_35
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_37
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_36
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_39
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_31
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_32
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_38
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_40
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_41
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_42
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_44
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_43
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_46
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_47
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_49
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_45
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_48
+[2025-12-05 22:44:59] LOGIN success: rest_load_user_50
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_34', Amount=100.07
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_33', Amount=100.11
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_41', Amount=100.40
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_36', Amount=100.03
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_43', Amount=100.43
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_32', Amount=100.25
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_49', Amount=100.16
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_35', Amount=100.14
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_47', Amount=100.28
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_50', Amount=100.21
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_39', Amount=100.29
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_43', Amount=100.81
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_41', Amount=100.70
+[2025-12-05 22:44:59] BID PLACED: Lot ID=24, User='rest_load_user_32', Amount=100.59
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_37', Amount=100.46
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_40', Amount=100.18
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_46', Amount=100.08
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_44', Amount=100.41
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_48', Amount=100.26
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_33', Amount=100.51
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_43', Amount=101.00
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_31', Amount=100.47
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_39', Amount=100.77
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_50', Amount=100.43
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_40', Amount=100.54
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_36', Amount=100.51
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_33', Amount=100.93
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_44', Amount=100.43
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_32', Amount=100.66
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_37', Amount=100.81
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_42', Amount=100.09
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_49', Amount=100.65
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_34', Amount=100.30
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_31', Amount=100.51
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_47', Amount=100.72
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_38', Amount=100.37
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_50', Amount=100.92
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_36', Amount=100.96
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_43', Amount=101.48
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_44', Amount=100.54
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_39', Amount=101.20
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_40', Amount=100.89
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_47', Amount=101.00
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_41', Amount=100.72
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_46', Amount=100.43
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_45', Amount=100.16
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_32', Amount=100.75
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_48', Amount=100.75
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_44', Amount=100.94
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_36', Amount=101.08
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_38', Amount=100.55
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_31', Amount=100.72
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_41', Amount=100.94
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_39', Amount=101.24
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_43', Amount=101.85
+[2025-12-05 22:45:00] BID PLACED: Lot ID=24, User='rest_load_user_46', Amount=100.89
+[2025-12-05 22:45:29] LOT DELETED: ID=24, Deleter='LoadTestCreator'
+[2025-12-05 23:04:52] LOGIN success: LoadTestCreator
+[2025-12-05 23:04:52] LOT CREATED: ID=25, Title='REST Stress Test Lot 1764968692', Creator='LoadTestCreator', Start='2025-12-05T21:04:47Z', Duration=5 min
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_1
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_4
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_2
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_3
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_8
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_6
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_9
+[2025-12-05 23:04:52] LOGIN success: rest_load_user_5
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_7
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_12
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_10
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_11
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_13
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_14
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_16
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_15
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_18
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_17
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_20
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_22
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_21
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_19
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_25
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_24
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_23
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_26
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_27
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_28
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_29
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_31
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_32
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_30
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_34
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_36
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_35
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_38
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_39
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_33
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_40
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_44
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_42
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_46
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_48
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_47
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_41
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_37
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_43
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_45
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_49
+[2025-12-05 23:04:53] LOGIN success: rest_load_user_50
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_32', Amount=100.21
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_31', Amount=100.21
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_35', Amount=100.46
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_39', Amount=100.40
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_48', Amount=100.28
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_42', Amount=100.08
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_41', Amount=100.18
+[2025-12-05 23:04:53] BID PLACED: Lot ID=25, User='rest_load_user_50', Amount=100.21
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_31', Amount=100.64
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_34', Amount=100.41
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_35', Amount=100.49
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_39', Amount=100.75
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_32', Amount=100.39
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_42', Amount=100.28
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_38', Amount=100.38
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_44', Amount=100.23
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_33', Amount=100.18
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_43', Amount=100.44
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_36', Amount=100.30
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_41', Amount=100.32
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_34', Amount=100.67
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_48', Amount=100.49
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_39', Amount=101.11
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_46', Amount=100.05
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_41', Amount=100.54
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_38', Amount=100.86
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_47', Amount=100.20
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_40', Amount=100.38
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_44', Amount=100.43
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_48', Amount=100.89
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_33', Amount=100.26
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_32', Amount=100.63
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_49', Amount=100.28
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_34', Amount=100.73
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_41', Amount=100.61
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_42', Amount=100.52
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_39', Amount=101.30
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_43', Amount=100.73
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_47', Amount=100.25
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_37', Amount=100.13
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_35', Amount=100.64
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_33', Amount=100.39
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_44', Amount=100.91
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_50', Amount=100.64
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_39', Amount=101.75
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_45', Amount=100.09
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_43', Amount=100.95
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_49', Amount=100.71
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_34', Amount=101.19
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_35', Amount=100.73
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_37', Amount=100.48
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_41', Amount=100.78
+[2025-12-05 23:04:54] BID PLACED: Lot ID=25, User='rest_load_user_43', Amount=101.33
+[2025-12-05 23:05:24] LOT DELETED: ID=25, Deleter='LoadTestCreator'
+[2025-12-05 23:08:54] LOGIN success: LoadTestCreator
+[2025-12-05 23:08:54] LOT CREATED: ID=26, Title='REST Stress Test Lot 1764968934', Creator='LoadTestCreator', Start='2025-12-05T21:08:49Z', Duration=5 min
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_1
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_3
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_2
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_4
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_6
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_5
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_9
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_10
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_8
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_13
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_7
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_11
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_12
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_16
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_14
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_15
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_17
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_18
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_19
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_20
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_22
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_23
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_21
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_24
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_25
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_26
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_28
+[2025-12-05 23:08:54] LOGIN success: rest_load_user_27
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_29
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_30
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_31
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_32
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_33
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_36
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_35
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_38
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_37
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_39
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_44
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_34
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_45
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_43
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_46
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_40
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_49
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_47
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_48
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_50
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_42
+[2025-12-05 23:08:55] LOGIN success: rest_load_user_41
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_32', Amount=100.45
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_35', Amount=100.30
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_39', Amount=100.28
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_45', Amount=100.23
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_48', Amount=100.19
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_49', Amount=100.16
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_42', Amount=100.18
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_40', Amount=100.21
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_50', Amount=100.26
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_33', Amount=100.17
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_31', Amount=100.27
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_48', Amount=100.41
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_37', Amount=100.50
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_45', Amount=100.65
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_43', Amount=100.15
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_50', Amount=100.47
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_49', Amount=100.62
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_42', Amount=100.62
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_46', Amount=100.03
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_44', Amount=100.41
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_40', Amount=100.54
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_33', Amount=100.44
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_38', Amount=100.20
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_37', Amount=100.63
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_47', Amount=100.06
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_35', Amount=100.54
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_41', Amount=100.21
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_45', Amount=100.78
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_39', Amount=100.59
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_48', Amount=100.61
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_46', Amount=100.47
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_43', Amount=100.54
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_47', Amount=100.24
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_44', Amount=100.60
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_50', Amount=100.57
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_37', Amount=101.11
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_46', Amount=100.62
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_33', Amount=100.89
+[2025-12-05 23:08:55] BID PLACED: Lot ID=26, User='rest_load_user_35', Amount=100.65
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_47', Amount=100.45
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_34', Amount=100.26
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_32', Amount=100.76
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_48', Amount=100.84
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_44', Amount=100.62
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_36', Amount=100.03
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_39', Amount=100.64
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_42', Amount=100.64
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_37', Amount=101.13
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_49', Amount=100.98
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_40', Amount=101.01
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_41', Amount=100.24
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_43', Amount=100.64
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_47', Amount=100.74
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_38', Amount=100.45
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_33', Amount=101.34
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_40', Amount=101.34
+[2025-12-05 23:08:56] BID PLACED: Lot ID=26, User='rest_load_user_35', Amount=100.80
+[2025-12-05 23:09:25] LOT DELETED: ID=26, Deleter='LoadTestCreator'
+[2025-12-05 23:12:34] LOGIN success: LoadTestCreator
+[2025-12-05 23:12:34] LOT CREATED: ID=27, Title='REST Stress Test Lot 1764969154', Creator='LoadTestCreator', Start='2025-12-05T21:12:29Z', Duration=5 min
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_1
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_4
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_5
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_3
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_9
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_6
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_7
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_2
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_8
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_11
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_10
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_13
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_12
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_14
+[2025-12-05 23:12:34] LOGIN success: rest_load_user_15
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_16
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_22
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_25
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_24
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_18
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_17
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_20
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_19
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_21
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_28
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_30
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_26
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_23
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_29
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_32
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_33
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_27
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_31
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_39
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_37
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_35
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_41
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_36
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_34
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_40
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_42
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_47
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_38
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_43
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_50
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_46
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_49
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_44
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_45
+[2025-12-05 23:12:35] LOGIN success: rest_load_user_48
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=100.18
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=100.42
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=100.02
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=100.36
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=100.39
+[2025-12-05 23:12:35] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=100.72
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=100.39
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=100.87
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=100.85
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=101.15
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.06
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=100.48
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=100.26
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=101.46
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=100.68
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=101.67
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=100.43
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=101.12
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=100.68
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=101.78
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=101.56
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=100.72
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=101.01
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=101.99
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.26
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=101.20
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=101.24
+[2025-12-05 23:12:36] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=102.02
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.16
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=101.73
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.28
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=102.26
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=101.41
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.33
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.30
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=101.83
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=101.77
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.52
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=102.68
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.06
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.33
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.55
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=103.01
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.46
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.27
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=103.43
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=102.98
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.38
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.53
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=103.75
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.48
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=101.88
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=103.27
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=101.93
+[2025-12-05 23:12:37] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=103.79
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=102.14
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=103.98
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.76
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=102.38
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=102.60
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=103.36
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=102.50
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=104.21
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=102.82
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=103.64
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=104.68
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=102.57
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=102.77
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=103.00
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=104.02
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=104.96
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=103.02
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=102.66
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=104.22
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=103.03
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=105.28
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_50', Amount=104.51
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=103.23
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=103.12
+[2025-12-05 23:12:38] BID PLACED: Lot ID=27, User='rest_load_user_49', Amount=103.22
+[2025-12-05 23:12:39] BID PLACED: Lot ID=27, User='rest_load_user_46', Amount=103.46
+[2025-12-05 23:12:39] BID PLACED: Lot ID=27, User='rest_load_user_48', Amount=103.61
+[2025-12-05 23:12:39] BID PLACED: Lot ID=27, User='rest_load_user_47', Amount=105.77
+[2025-12-05 23:13:05] LOT DELETED: ID=27, Deleter='LoadTestCreator'
+[2025-12-06 00:08:28] LOGIN success: LoadTestCreator
+[2025-12-06 00:08:28] LOT CREATED: ID=28, Title='REST Stress Test Lot 1764972508', Creator='LoadTestCreator', Start='2025-12-05T22:08:23Z', Duration=5 min
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_1
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_3
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_2
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_7
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_4
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_9
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_5
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_8
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_6
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_10
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_12
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_11
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_13
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_14
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_16
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_17
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_15
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_18
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_20
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_19
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_21
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_22
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_23
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_24
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_27
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_26
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_33
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_31
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_28
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_29
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_30
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_25
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_37
+[2025-12-06 00:08:28] LOGIN success: rest_load_user_34
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_38
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_36
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_40
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_39
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_42
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_35
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_41
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_32
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_43
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_45
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_44
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_49
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_50
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_46
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_47
+[2025-12-06 00:08:29] LOGIN success: rest_load_user_48
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_31', Amount=100.13
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_36', Amount=100.17
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_32', Amount=100.09
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_42', Amount=100.18
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_40', Amount=100.28
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_49', Amount=100.39
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_47', Amount=100.21
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_46', Amount=100.03
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_39', Amount=100.10
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_36', Amount=100.45
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_50', Amount=100.21
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_44', Amount=100.10
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_49', Amount=100.64
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_35', Amount=100.11
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_38', Amount=100.37
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_47', Amount=100.69
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_34', Amount=100.38
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_46', Amount=100.21
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_48', Amount=100.14
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_41', Amount=100.37
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_42', Amount=100.44
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_40', Amount=100.74
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_43', Amount=100.05
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_50', Amount=100.43
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_37', Amount=100.03
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_49', Amount=100.88
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_46', Amount=100.40
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_31', Amount=100.33
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_35', Amount=100.56
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_40', Amount=101.16
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_42', Amount=100.65
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_36', Amount=100.83
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_32', Amount=100.43
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_39', Amount=100.24
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_43', Amount=100.26
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_33', Amount=100.04
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_40', Amount=101.29
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_50', Amount=100.83
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_37', Amount=100.45
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_46', Amount=100.58
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_31', Amount=100.41
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_35', Amount=100.79
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_38', Amount=100.74
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_34', Amount=100.41
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_44', Amount=100.46
+[2025-12-06 00:08:29] BID PLACED: Lot ID=28, User='rest_load_user_37', Amount=100.66
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_42', Amount=100.78
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_48', Amount=100.36
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_40', Amount=101.47
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_35', Amount=101.22
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_49', Amount=101.08
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_41', Amount=100.47
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_33', Amount=100.30
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_31', Amount=100.46
+[2025-12-06 00:08:30] BID PLACED: Lot ID=28, User='rest_load_user_47', Amount=100.92
+[2025-12-06 00:08:59] LOT DELETED: ID=28, Deleter='LoadTestCreator'
+[2025-12-06 00:14:21] LOGIN success: LoadTestCreator
+[2025-12-06 00:14:21] LOT CREATED: ID=29, Title='REST Stress Test Lot 1764972861', Creator='LoadTestCreator', Start='2025-12-05T22:14:16Z', Duration=5 min
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_4
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_3
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_8
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_1
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_2
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_10
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_6
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_11
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_9
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_12
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_5
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_7
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_14
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_15
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_13
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_16
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_17
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_18
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_19
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_21
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_20
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_23
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_24
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_26
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_27
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_25
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_29
+[2025-12-06 00:14:21] LOGIN success: rest_load_user_28
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_31
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_30
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_33
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_34
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_35
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_32
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_22
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_36
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_40
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_41
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_42
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_43
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_45
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_47
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_39
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_46
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_37
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_48
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_49
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_50
+[2025-12-06 00:14:22] LOGIN success: rest_load_user_44
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_34', Amount=100.09
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_33', Amount=100.11
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_31', Amount=100.28
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_38', Amount=100.44
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_42', Amount=100.33
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_43', Amount=100.31
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_35', Amount=100.37
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_39', Amount=100.26
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_46', Amount=100.30
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_44', Amount=100.24
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_33', Amount=100.61
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_32', Amount=100.17
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_31', Amount=100.46
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_34', Amount=100.27
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_38', Amount=100.47
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_44', Amount=100.61
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_47', Amount=100.09
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_46', Amount=100.68
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_40', Amount=100.08
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_37', Amount=100.37
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_43', Amount=100.46
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_39', Amount=100.69
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_34', Amount=100.51
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_35', Amount=100.42
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_33', Amount=100.72
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_50', Amount=100.38
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_43', Amount=100.70
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_37', Amount=100.72
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_38', Amount=100.48
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_49', Amount=100.33
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_39', Amount=100.75
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_36', Amount=100.48
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_40', Amount=100.46
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_33', Amount=101.09
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_35', Amount=100.71
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_48', Amount=100.40
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_45', Amount=100.49
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_42', Amount=100.68
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_31', Amount=100.54
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_37', Amount=100.95
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_41', Amount=100.15
+[2025-12-06 00:14:22] BID PLACED: Lot ID=29, User='rest_load_user_32', Amount=100.37
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_44', Amount=100.98
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_40', Amount=100.70
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_36', Amount=100.59
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_46', Amount=100.80
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_49', Amount=100.37
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_48', Amount=100.61
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_37', Amount=101.18
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_47', Amount=100.59
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_39', Amount=101.07
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_31', Amount=100.60
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_49', Amount=100.61
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_32', Amount=100.63
+[2025-12-06 00:14:23] BID PLACED: Lot ID=29, User='rest_load_user_38', Amount=100.65
+[2025-12-06 00:14:52] LOT DELETED: ID=29, Deleter='LoadTestCreator'
+[2025-12-06 14:29:16] REGISTER success: bench_user_1_1765024156
+[2025-12-06 14:29:16] LOGIN success: bench_user_1_1765024156
+[2025-12-06 14:29:16] LOT CREATED: ID=30, Title='BenchLot-1765024156', Creator='bench_user_1_1765024156', Start='2025-12-06T12:28:16Z', Duration=5 min
+[2025-12-06 14:29:19] REGISTER success: bench_user_2_1765024159
+[2025-12-06 14:29:19] LOGIN success: bench_user_2_1765024159
+[2025-12-06 14:29:19] LOT CREATED: ID=31, Title='BenchLot-1765024159', Creator='bench_user_2_1765024159', Start='2025-12-06T12:28:19Z', Duration=5 min
+[2025-12-06 14:29:21] REGISTER success: bench_user_3_1765024161
+[2025-12-06 14:29:21] LOGIN success: bench_user_3_1765024161
+[2025-12-06 14:29:21] LOT CREATED: ID=32, Title='BenchLot-1765024161', Creator='bench_user_3_1765024161', Start='2025-12-06T12:28:21Z', Duration=5 min
+[2025-12-06 14:29:24] REGISTER success: bench_user_4_1765024163
+[2025-12-06 14:29:24] LOGIN success: bench_user_4_1765024163
+[2025-12-06 14:29:24] LOT CREATED: ID=33, Title='BenchLot-1765024164', Creator='bench_user_4_1765024163', Start='2025-12-06T12:28:24Z', Duration=5 min
+[2025-12-06 14:29:26] REGISTER success: bench_user_5_1765024166
+[2025-12-06 14:29:26] LOGIN success: bench_user_5_1765024166
+[2025-12-06 14:29:26] LOT CREATED: ID=34, Title='BenchLot-1765024166', Creator='bench_user_5_1765024166', Start='2025-12-06T12:28:26Z', Duration=5 min
+[2025-12-06 14:29:29] REGISTER success: bench_user_6_1765024169
+[2025-12-06 14:29:29] LOGIN success: bench_user_6_1765024169
+[2025-12-06 14:29:30] LOT CREATED: ID=35, Title='BenchLot-1765024169', Creator='bench_user_6_1765024169', Start='2025-12-06T12:28:29Z', Duration=5 min
+[2025-12-06 14:29:32] REGISTER success: bench_user_7_1765024172
+[2025-12-06 14:29:32] LOGIN success: bench_user_7_1765024172
+[2025-12-06 14:29:32] LOT CREATED: ID=36, Title='BenchLot-1765024172', Creator='bench_user_7_1765024172', Start='2025-12-06T12:28:32Z', Duration=5 min
+[2025-12-06 14:29:35] REGISTER success: bench_user_8_1765024175
+[2025-12-06 14:29:35] LOGIN success: bench_user_8_1765024175
+[2025-12-06 14:29:35] LOT CREATED: ID=37, Title='BenchLot-1765024175', Creator='bench_user_8_1765024175', Start='2025-12-06T12:28:35Z', Duration=5 min
+[2025-12-06 14:29:38] REGISTER success: bench_user_9_1765024178
+[2025-12-06 14:29:38] LOGIN success: bench_user_9_1765024178
+[2025-12-06 14:29:38] LOT CREATED: ID=38, Title='BenchLot-1765024178', Creator='bench_user_9_1765024178', Start='2025-12-06T12:28:38Z', Duration=5 min
+[2025-12-06 14:29:41] REGISTER success: bench_user_10_1765024180
+[2025-12-06 14:29:41] LOGIN success: bench_user_10_1765024180
+[2025-12-06 14:29:41] LOT CREATED: ID=39, Title='BenchLot-1765024181', Creator='bench_user_10_1765024180', Start='2025-12-06T12:28:41Z', Duration=5 min
+[2025-12-06 14:29:43] REGISTER success: bench_user_11_1765024183
+[2025-12-06 14:29:43] LOGIN success: bench_user_11_1765024183
+[2025-12-06 14:29:43] LOT CREATED: ID=40, Title='BenchLot-1765024183', Creator='bench_user_11_1765024183', Start='2025-12-06T12:28:43Z', Duration=5 min
+[2025-12-06 14:29:46] REGISTER success: bench_user_12_1765024186
+[2025-12-06 14:29:46] LOGIN success: bench_user_12_1765024186
+[2025-12-06 14:29:46] LOT CREATED: ID=41, Title='BenchLot-1765024186', Creator='bench_user_12_1765024186', Start='2025-12-06T12:28:46Z', Duration=5 min
+[2025-12-06 14:29:49] REGISTER success: bench_user_13_1765024189
+[2025-12-06 14:29:49] LOGIN success: bench_user_13_1765024189
+[2025-12-06 14:29:49] LOT CREATED: ID=42, Title='BenchLot-1765024189', Creator='bench_user_13_1765024189', Start='2025-12-06T12:28:49Z', Duration=5 min
+[2025-12-06 14:29:52] REGISTER success: bench_user_14_1765024192
+[2025-12-06 14:29:52] LOGIN success: bench_user_14_1765024192
+[2025-12-06 14:29:52] LOT CREATED: ID=43, Title='BenchLot-1765024192', Creator='bench_user_14_1765024192', Start='2025-12-06T12:28:52Z', Duration=5 min
+[2025-12-06 14:29:55] REGISTER success: bench_user_15_1765024195
+[2025-12-06 14:29:55] LOGIN success: bench_user_15_1765024195
+[2025-12-06 14:29:55] LOT CREATED: ID=44, Title='BenchLot-1765024195', Creator='bench_user_15_1765024195', Start='2025-12-06T12:28:55Z', Duration=5 min
+[2025-12-06 14:29:57] REGISTER success: bench_user_16_1765024197
+[2025-12-06 14:29:58] LOGIN success: bench_user_16_1765024197
+[2025-12-06 14:29:58] LOT CREATED: ID=45, Title='BenchLot-1765024198', Creator='bench_user_16_1765024197', Start='2025-12-06T12:28:58Z', Duration=5 min
+[2025-12-06 14:30:00] REGISTER success: bench_user_17_1765024200
+[2025-12-06 14:30:00] LOGIN success: bench_user_17_1765024200
+[2025-12-06 14:30:00] LOT CREATED: ID=46, Title='BenchLot-1765024201', Creator='bench_user_17_1765024200', Start='2025-12-06T12:29:01Z', Duration=5 min
+[2025-12-06 14:30:03] REGISTER success: bench_user_18_1765024203
+[2025-12-06 14:30:03] LOGIN success: bench_user_18_1765024203
+[2025-12-06 14:30:03] LOT CREATED: ID=47, Title='BenchLot-1765024203', Creator='bench_user_18_1765024203', Start='2025-12-06T12:29:03Z', Duration=5 min
+[2025-12-06 14:30:06] REGISTER success: bench_user_19_1765024206
+[2025-12-06 14:30:06] LOGIN success: bench_user_19_1765024206
+[2025-12-06 14:30:06] LOT CREATED: ID=48, Title='BenchLot-1765024206', Creator='bench_user_19_1765024206', Start='2025-12-06T12:29:06Z', Duration=5 min
+[2025-12-06 14:30:08] REGISTER success: bench_user_20_1765024208
+[2025-12-06 14:30:09] LOGIN success: bench_user_20_1765024208
+[2025-12-06 14:30:09] LOT CREATED: ID=49, Title='BenchLot-1765024209', Creator='bench_user_20_1765024208', Start='2025-12-06T12:29:09Z', Duration=5 min
+[2025-12-07 16:24:43] LOGIN success: LoadTestCreator
+[2025-12-07 16:24:43] LOT CREATED: ID=50, Title='REST Stress Test Lot 1765117483', Creator='LoadTestCreator', Start='2025-12-07T14:24:38Z', Duration=5 min
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_3
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_5
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_2
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_4
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_6
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_7
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_1
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_8
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_9
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_12
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_10
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_11
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_14
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_13
+[2025-12-07 16:24:43] LOGIN success: rest_load_user_16
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_15
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_18
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_17
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_19
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_21
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_24
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_23
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_26
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_27
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_25
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_22
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_30
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_29
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_33
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_32
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_20
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_28
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_31
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_34
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_35
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_36
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_37
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_38
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_39
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_40
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_41
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_42
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_44
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_45
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_46
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_47
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_48
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_43
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_50
+[2025-12-07 16:24:44] LOGIN success: rest_load_user_49
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_32', Amount=100.48
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_35', Amount=100.44
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_36', Amount=100.13
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_33', Amount=100.30
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_38', Amount=100.06
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_42', Amount=100.49
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_39', Amount=100.32
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_48', Amount=100.08
+[2025-12-07 16:24:44] BID PLACED: Lot ID=50, User='rest_load_user_43', Amount=100.05
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_31', Amount=100.19
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_34', Amount=100.47
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_40', Amount=100.24
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_37', Amount=100.24
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_47', Amount=100.31
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_48', Amount=100.30
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_50', Amount=100.22
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_39', Amount=100.43
+[2025-12-07 16:24:45] BID PLACED: Lot ID=50, User='rest_load_user_42', Amount=100.57
+[2025-12-07 16:25:14] LOT DELETED: ID=50, Deleter='LoadTestCreator'
+[2025-12-07 16:28:22] LOGIN success: LoadTestCreator
+[2025-12-07 16:28:22] LOT CREATED: ID=51, Title='REST Stress Test Lot 1765117702', Creator='LoadTestCreator', Start='2025-12-07T14:28:17Z', Duration=5 min
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_5
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_2
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_4
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_3
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_10
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_6
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_1
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_8
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_7
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_11
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_9
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_12
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_13
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_14
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_16
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_18
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_17
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_19
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_21
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_15
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_22
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_20
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_26
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_27
+[2025-12-07 16:28:22] LOGIN success: rest_load_user_25
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_24
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_23
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_30
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_32
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_28
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_29
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_31
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_35
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_34
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_36
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_37
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_33
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_38
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_40
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_39
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_41
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_42
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_44
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_43
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_46
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_47
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_48
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_49
+[2025-12-07 16:28:23] LOGIN success: rest_load_user_50
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_32', Amount=100.36
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_31', Amount=100.07
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_39', Amount=100.09
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_42', Amount=100.19
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_44', Amount=100.16
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_46', Amount=100.06
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_41', Amount=100.15
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_49', Amount=100.19
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_48', Amount=100.29
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_50', Amount=100.47
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_39', Amount=100.19
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_36', Amount=100.04
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_33', Amount=100.11
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_46', Amount=100.38
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_38', Amount=100.10
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_49', Amount=100.66
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_41', Amount=100.63
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_47', Amount=100.09
+[2025-12-07 16:28:23] BID PLACED: Lot ID=51, User='rest_load_user_37', Amount=100.47
+[2025-12-07 16:28:24] BID PLACED: Lot ID=51, User='rest_load_user_39', Amount=100.61
+[2025-12-07 16:28:24] BID PLACED: Lot ID=51, User='rest_load_user_44', Amount=100.33
+[2025-12-07 16:28:24] BID PLACED: Lot ID=51, User='rest_load_user_42', Amount=100.29
+[2025-12-07 16:28:24] BID PLACED: Lot ID=51, User='rest_load_user_43', Amount=100.24
+[2025-12-07 16:28:53] LOT DELETED: ID=51, Deleter='LoadTestCreator'
+[2025-12-07 18:45:14] LOGIN success: LoadTestCreator
+[2025-12-07 18:45:14] LOT CREATED: ID=52, Title='REST Stress Test Lot 1765125914', Creator='LoadTestCreator', Start='2025-12-07T16:45:09Z', Duration=5 min
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_2
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_4
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_3
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_6
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_5
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_8
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_7
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_10
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_9
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_1
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_11
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_13
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_12
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_15
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_14
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_16
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_17
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_18
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_20
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_19
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_21
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_23
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_27
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_28
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_22
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_24
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_29
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_26
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_30
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_25
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_33
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_31
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_32
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_35
+[2025-12-07 18:45:14] LOGIN success: rest_load_user_36
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_39
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_37
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_42
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_34
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_40
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_43
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_44
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_41
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_45
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_38
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_48
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_47
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_49
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_50
+[2025-12-07 18:45:15] LOGIN success: rest_load_user_46
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_33', Amount=100.50
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_35', Amount=100.39
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_42', Amount=100.28
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_34', Amount=100.29
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_41', Amount=100.08
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_40', Amount=100.41
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_46', Amount=100.02
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_50', Amount=100.02
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_43', Amount=100.26
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_35', Amount=100.65
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_42', Amount=100.55
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_40', Amount=100.52
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_41', Amount=100.18
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_44', Amount=100.37
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_39', Amount=100.35
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_36', Amount=100.10
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_38', Amount=100.08
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_33', Amount=100.62
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_45', Amount=100.03
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_48', Amount=100.28
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_37', Amount=100.32
+[2025-12-07 18:45:15] BID PLACED: Lot ID=52, User='rest_load_user_47', Amount=100.34
+[2025-12-07 18:45:45] LOT DELETED: ID=52, Deleter='LoadTestCreator'
+[2025-12-09 11:10:25] LOGIN success: liliput
+[2025-12-09 11:11:18] LOGIN success: liliput
+[2025-12-10 13:56:16] REGISTER success: bench_test
+[2025-12-10 13:56:17] LOGIN success: bench_test
+[2025-12-10 13:56:17] LOT CREATED: ID=53, Title='BenchLot-1765367777', Creator='bench_test', Start='2025-12-10T11:55:17Z', Duration=5 min
+[2025-12-10 13:56:29] REGISTER success: bench_user_1_1765367789
+[2025-12-10 13:56:29] LOGIN success: bench_user_1_1765367789
+[2025-12-10 13:56:29] LOT CREATED: ID=54, Title='BenchLot-1765367789', Creator='bench_user_1_1765367789', Start='2025-12-10T11:55:29Z', Duration=5 min
+[2025-12-10 13:56:32] REGISTER success: bench_user_2_1765367791
+[2025-12-10 13:56:32] LOGIN success: bench_user_2_1765367791
+[2025-12-10 13:56:32] LOT CREATED: ID=55, Title='BenchLot-1765367792', Creator='bench_user_2_1765367791', Start='2025-12-10T11:55:32Z', Duration=5 min
+[2025-12-10 13:56:35] REGISTER success: bench_user_3_1765367794
+[2025-12-10 13:56:35] LOGIN success: bench_user_3_1765367794
+[2025-12-10 13:56:35] LOT CREATED: ID=56, Title='BenchLot-1765367795', Creator='bench_user_3_1765367794', Start='2025-12-10T11:55:35Z', Duration=5 min
+[2025-12-10 13:56:37] REGISTER success: bench_user_4_1765367797
+[2025-12-10 13:56:38] LOGIN success: bench_user_4_1765367797
+[2025-12-10 13:56:38] LOT CREATED: ID=57, Title='BenchLot-1765367798', Creator='bench_user_4_1765367797', Start='2025-12-10T11:55:38Z', Duration=5 min
+[2025-12-10 13:56:40] REGISTER success: bench_user_5_1765367800
+[2025-12-10 13:56:40] LOGIN success: bench_user_5_1765367800
+[2025-12-10 13:56:40] LOT CREATED: ID=58, Title='BenchLot-1765367800', Creator='bench_user_5_1765367800', Start='2025-12-10T11:55:40Z', Duration=5 min
+[2025-12-10 13:56:43] REGISTER success: bench_user_6_1765367802
+[2025-12-10 13:56:43] LOGIN success: bench_user_6_1765367802
+[2025-12-10 13:56:43] LOT CREATED: ID=59, Title='BenchLot-1765367803', Creator='bench_user_6_1765367802', Start='2025-12-10T11:55:43Z', Duration=5 min
+[2025-12-10 13:56:45] REGISTER success: bench_user_7_1765367805
+[2025-12-10 13:56:46] LOGIN success: bench_user_7_1765367805
+[2025-12-10 13:56:46] LOT CREATED: ID=60, Title='BenchLot-1765367806', Creator='bench_user_7_1765367805', Start='2025-12-10T11:55:46Z', Duration=5 min
+[2025-12-10 13:56:48] REGISTER success: bench_user_8_1765367808
+[2025-12-10 13:56:49] LOGIN success: bench_user_8_1765367808
+[2025-12-10 13:56:49] LOT CREATED: ID=61, Title='BenchLot-1765367809', Creator='bench_user_8_1765367808', Start='2025-12-10T11:55:49Z', Duration=5 min
+[2025-12-10 13:56:51] REGISTER success: bench_user_9_1765367811
+[2025-12-10 13:56:51] LOGIN success: bench_user_9_1765367811
+[2025-12-10 13:56:51] LOT CREATED: ID=62, Title='BenchLot-1765367811', Creator='bench_user_9_1765367811', Start='2025-12-10T11:55:51Z', Duration=5 min
+[2025-12-10 13:56:54] REGISTER success: bench_user_10_1765367814
+[2025-12-10 13:56:54] LOGIN success: bench_user_10_1765367814
+[2025-12-10 13:56:54] LOT CREATED: ID=63, Title='BenchLot-1765367814', Creator='bench_user_10_1765367814', Start='2025-12-10T11:55:54Z', Duration=5 min
+[2025-12-10 13:56:57] REGISTER success: bench_user_11_1765367817
+[2025-12-10 13:56:57] LOGIN success: bench_user_11_1765367817
+[2025-12-10 13:56:57] LOT CREATED: ID=64, Title='BenchLot-1765367817', Creator='bench_user_11_1765367817', Start='2025-12-10T11:55:57Z', Duration=5 min
+[2025-12-10 13:57:00] REGISTER success: bench_user_12_1765367820
+[2025-12-10 13:57:00] LOGIN success: bench_user_12_1765367820
+[2025-12-10 13:57:00] LOT CREATED: ID=65, Title='BenchLot-1765367820', Creator='bench_user_12_1765367820', Start='2025-12-10T11:56:00Z', Duration=5 min
+[2025-12-10 13:57:03] REGISTER success: bench_user_13_1765367823
+[2025-12-10 13:57:03] LOGIN success: bench_user_13_1765367823
+[2025-12-10 13:57:03] LOT CREATED: ID=66, Title='BenchLot-1765367823', Creator='bench_user_13_1765367823', Start='2025-12-10T11:56:03Z', Duration=5 min
+[2025-12-10 13:57:06] REGISTER success: bench_user_14_1765367826
+[2025-12-10 13:57:06] LOGIN success: bench_user_14_1765367826
+[2025-12-10 13:57:06] LOT CREATED: ID=67, Title='BenchLot-1765367826', Creator='bench_user_14_1765367826', Start='2025-12-10T11:56:06Z', Duration=5 min
+[2025-12-10 13:57:09] REGISTER success: bench_user_15_1765367828
+[2025-12-10 13:57:09] LOGIN success: bench_user_15_1765367828
+[2025-12-10 13:57:09] LOT CREATED: ID=68, Title='BenchLot-1765367829', Creator='bench_user_15_1765367828', Start='2025-12-10T11:56:09Z', Duration=5 min
+[2025-12-10 13:57:12] REGISTER success: bench_user_16_1765367831
+[2025-12-10 13:57:12] LOGIN success: bench_user_16_1765367831
+[2025-12-10 13:57:12] LOT CREATED: ID=69, Title='BenchLot-1765367832', Creator='bench_user_16_1765367831', Start='2025-12-10T11:56:12Z', Duration=5 min
+[2025-12-10 13:57:14] REGISTER success: bench_user_17_1765367834
+[2025-12-10 13:57:15] LOGIN success: bench_user_17_1765367834
+[2025-12-10 13:57:15] LOT CREATED: ID=70, Title='BenchLot-1765367834', Creator='bench_user_17_1765367834', Start='2025-12-10T11:56:14Z', Duration=5 min
+[2025-12-10 13:57:17] REGISTER success: bench_user_18_1765367837
+[2025-12-10 13:57:17] LOGIN success: bench_user_18_1765367837
+[2025-12-10 13:57:17] LOT CREATED: ID=71, Title='BenchLot-1765367837', Creator='bench_user_18_1765367837', Start='2025-12-10T11:56:17Z', Duration=5 min
+[2025-12-10 13:57:20] REGISTER success: bench_user_19_1765367840
+[2025-12-10 13:57:20] LOGIN success: bench_user_19_1765367840
+[2025-12-10 13:57:20] LOT CREATED: ID=72, Title='BenchLot-1765367840', Creator='bench_user_19_1765367840', Start='2025-12-10T11:56:20Z', Duration=5 min
+[2025-12-10 13:57:23] REGISTER success: bench_user_20_1765367843
+[2025-12-10 13:57:23] LOGIN success: bench_user_20_1765367843
+[2025-12-10 13:57:23] LOT CREATED: ID=73, Title='BenchLot-1765367843', Creator='bench_user_20_1765367843', Start='2025-12-10T11:56:23Z', Duration=5 min
+[2025-12-11 10:00:23] LOGIN failed (user not found): liliana blashchuk
+[2025-12-11 10:00:29] LOGIN failed (user not found): liliana blashchuk
+[2025-12-11 10:00:35] LOGIN failed (user not found): liliana blashchuk
+[2025-12-11 10:00:51] REGISTER success: liliana 
+[2025-12-11 10:00:59] LOGIN success: liliana 
+[2025-12-11 10:03:02] LOGIN failed (password mismatch): liliana
+[2025-12-11 10:03:22] LOGIN failed (password mismatch): liliana
+[2025-12-11 10:05:53] REGISTER success: liliana 
+[2025-12-11 10:06:00] LOGIN failed (user not found): liliana
+[2025-12-11 10:06:07] LOGIN failed (user not found): liliana
+[2025-12-11 10:06:13] LOGIN failed (user not found): liliana
+[2025-12-11 10:06:23] REGISTER success: liliana
+[2025-12-11 10:06:30] LOGIN success: liliana
+[2025-12-11 10:07:07] LOGIN success: liliana
+[2025-12-11 10:08:34] LOT CREATED: ID=16, Title='Antique Bronze Statue', Creator='liliana', Start='2025-12-11T08:13:08Z', Duration=10 min
+[2025-12-11 10:09:10] LOT CREATED: ID=17, Title='Retro Vinyl Player', Creator='liliana', Start='2025-12-11T08:13:38Z', Duration=5 min
+[2025-12-11 10:09:51] LOT CREATED: ID=18, Title='Classic Leather Briefcase', Creator='liliana', Start='2025-12-11T08:14:33Z', Duration=5 min
+[2025-12-11 10:15:53] REGISTER success: liliana blashchuk
+[2025-12-11 10:16:04] LOGIN success: liliana blashchuk
+[2025-12-11 10:16:22] BID PLACED: Lot ID=18, User='liliana blashchuk', Amount=284.00
+[2025-12-11 10:16:29] BID PLACED: Lot ID=18, User='liliana blashchuk', Amount=300.00
+[2025-12-11 10:16:48] BID PLACED: Lot ID=18, User='liliana blashchuk', Amount=1000.00
+[2025-12-11 10:18:25] LOT CREATED: ID=19, Title='liliana lot', Creator='liliana blashchuk', Start='2025-12-11T08:23:09Z', Duration=5 min
+[2025-12-11 10:24:05] REGISTER success: Liliana Blashchuk
+[2025-12-11 10:24:16] LOGIN success: Liliana Blashchuk
+[2025-12-11 10:24:29] BID PLACED: Lot ID=19, User='Liliana Blashchuk', Amount=120.00
+[2025-12-11 10:26:03] LOGIN success: Liliana Blashchuk
+[2025-12-11 10:26:11] BID PLACED: Lot ID=19, User='Liliana Blashchuk', Amount=120.00
+[2025-12-11 11:06:07] LOGIN success: Liliana Blashchuk
+[2025-12-11 11:06:36] LOT CREATED: ID=20, Title='lot for test', Creator='Liliana Blashchuk', Start='2025-12-11T09:11:17Z', Duration=5 min
+[2025-12-11 11:07:40] LOT CREATED: ID=21, Title='vase for roses', Creator='Liliana Blashchuk', Start='2025-12-11T09:12:10Z', Duration=5 min
+[2025-12-11 11:08:06] REGISTER success: liliana2
+[2025-12-11 11:08:14] LOGIN success: liliana2
+[2025-12-11 11:12:31] LOGIN success: liliana2
+[2025-12-11 11:12:50] BID PLACED: Lot ID=21, User='liliana2', Amount=240.00
+[2025-12-11 11:22:04] LOGIN success: liliana2
+[2025-12-11 11:22:34] LOT CREATED: ID=22, Title='test for this lot', Creator='liliana2', Start='2025-12-11T09:27:11Z', Duration=5 min
+[2025-12-11 11:22:52] LOGIN success: Liliana Blashchuk
+[2025-12-11 11:26:36] LOGIN failed (password mismatch): Liliana Blashchuk
+[2025-12-11 11:26:42] LOGIN success: Liliana Blashchuk
+[2025-12-11 11:27:12] BID PLACED: Lot ID=22, User='Liliana Blashchuk', Amount=16.00
+[2025-12-11 11:27:17] BID PLACED: Lot ID=22, User='Liliana Blashchuk', Amount=18.00
+[2025-12-11 11:27:23] BID PLACED: Lot ID=22, User='Liliana Blashchuk', Amount=20.00
+[2025-12-11 11:27:38] BID PLACED: Lot ID=22, User='Liliana Blashchuk', Amount=60.00
+[2025-12-11 11:34:09] LOGIN success: liliana2
+[2025-12-11 11:34:37] LOT CREATED: ID=23, Title='lot 23 from liliana2', Creator='liliana2', Start='2025-12-11T09:39:22Z', Duration=5 min
+[2025-12-11 11:38:18] LOGIN failed (password mismatch): Liliana Blashchuk
+[2025-12-11 11:38:23] LOGIN success: Liliana Blashchuk
+[2025-12-11 11:39:52] BID PLACED: Lot ID=23, User='Liliana Blashchuk', Amount=30.00
+[2025-12-11 11:39:57] BID PLACED: Lot ID=23, User='Liliana Blashchuk', Amount=34.00
+[2025-12-11 11:40:01] BID PLACED: Lot ID=23, User='Liliana Blashchuk', Amount=40.00
+[2025-12-11 11:40:06] BID PLACED: Lot ID=23, User='Liliana Blashchuk', Amount=300.00
+[2025-12-11 20:58:12] REGISTER success: Liliana Blashchuk
+[2025-12-11 20:58:22] LOGIN success: Liliana Blashchuk
+[2025-12-11 20:58:57] LOT CREATED: ID=16, Title='lot for demonstration', Creator='Liliana Blashchuk', Start='2025-12-11T19:03:34Z', Duration=5 min
+[2025-12-11 21:03:21] REGISTER success: Liliana
+[2025-12-11 21:03:30] LOGIN success: Liliana
+[2025-12-11 21:04:56] LOT CREATED: ID=17, Title='lot for demo, from user Liliana', Creator='Liliana', Start='2025-12-11T19:09:27Z', Duration=5 min
+[2025-12-11 21:05:09] BID PLACED: Lot ID=16, User='Liliana', Amount=30.00
+[2025-12-11 21:05:14] BID PLACED: Lot ID=16, User='Liliana', Amount=32.00
+[2025-12-11 21:05:19] BID PLACED: Lot ID=16, User='Liliana', Amount=40.00
+[2025-12-11 21:05:25] BID PLACED: Lot ID=16, User='Liliana', Amount=45.00
+[2025-12-11 21:05:43] LOT DELETED: ID=17, Deleter='Liliana'
+[2025-12-11 21:05:58] BID PLACED: Lot ID=16, User='Liliana', Amount=48.00
+[2025-12-11 21:06:04] BID PLACED: Lot ID=16, User='Liliana', Amount=50.00
+[2025-12-11 21:06:49] BID PLACED: Lot ID=16, User='Liliana', Amount=80.00
+[2025-12-11 23:26:50] REGISTER success: blashchuk liliana
+[2025-12-11 23:27:04] LOGIN success: blashchuk liliana
+[2025-12-11 23:27:33] LOT CREATED: ID=17, Title='new lot dddodo', Creator='blashchuk liliana', Start='2025-12-11T21:28:12Z', Duration=5 min
+[2025-12-11 23:27:58] LOGIN success: Liliana Blashchuk
+[2025-12-11 23:28:28] BID PLACED: Lot ID=17, User='Liliana Blashchuk', Amount=30.00
+[2025-12-11 23:31:06] LOGIN success: Liliana Blashchuk
+[2025-12-11 23:31:24] BID PLACED: Lot ID=17, User='Liliana Blashchuk', Amount=60.00
+[2025-12-11 23:35:07] LOGIN failed (user not found): liliana
+[2025-12-11 23:35:17] LOGIN success: Liliana Blashchuk
+[2025-12-11 23:35:34] LOT CREATED: ID=18, Title='lotik orooor', Creator='Liliana Blashchuk', Start='2025-12-11T21:39:19Z', Duration=5 min
+[2025-12-11 23:36:27] LOGIN success: blashchuk liliana
+[2025-12-11 23:39:26] BID PLACED: Lot ID=18, User='blashchuk liliana', Amount=40.00
+[2025-12-11 23:50:02] REGISTER success: Blashchuk Liliana 
+[2025-12-11 23:50:14] LOGIN success: Blashchuk Liliana 
+[2025-12-11 23:51:01] LOT CREATED: ID=16, Title='lot for demonstration', Creator='Blashchuk Liliana ', Start='2025-12-11T21:51:27Z', Duration=5 min
+[2025-12-11 23:53:26] REGISTER success: liliana blashchuk
+[2025-12-11 23:53:37] LOGIN success: liliana blashchuk
+[2025-12-11 23:53:49] BID PLACED: Lot ID=16, User='liliana blashchuk', Amount=20.00
+[2025-12-11 23:54:24] LOT CREATED: ID=17, Title='lot for demo', Creator='liliana blashchuk', Start='2025-12-11T21:59:11Z', Duration=5 min
+[2025-12-11 23:54:57] LOT DELETED: ID=17, Deleter='liliana blashchuk'
+[2025-12-12 00:08:06] LOGIN success: Liliana Blashchuk
+[2025-12-12 00:08:45] LOT CREATED: ID=17, Title='Retro Wooden Chess Set', Creator='Liliana Blashchuk', Start='2025-12-11T22:10:11Z', Duration=5 min
+[2025-12-12 00:11:09] REGISTER success: l_blashchuk
+[2025-12-12 00:11:20] LOGIN success: l_blashchuk
+[2025-12-12 00:11:47] BID PLACED: Lot ID=17, User='l_blashchuk', Amount=270.00
+[2025-12-12 00:12:18] LOT CREATED: ID=18, Title='lot for demo', Creator='l_blashchuk', Start='2025-12-11T22:17:08Z', Duration=5 min
+[2025-12-12 00:12:29] LOT DELETED: ID=18, Deleter='l_blashchuk'
+[2025-12-12 16:22:54] LOGIN success: l_blashchuk
+[2025-12-13 09:34:08] REGISTER success: LoadTestCreator
+[2025-12-13 09:34:08] LOT CREATED: ID=18, Title='REST Stress Test Lot 1765611248', Creator='LoadTestCreator', Start='2025-12-13T07:34:03Z', Duration=5 min
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_1
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_5
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_2
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_3
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_4
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_6
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_8
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_7
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_10
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_11
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_9
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_12
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_13
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_14
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_15
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_16
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_18
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_17
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_19
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_20
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_21
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_22
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_25
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_23
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_24
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_26
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_27
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_28
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_29
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_30
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_31
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_32
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_33
+[2025-12-13 09:34:08] REGISTER success: rest_load_user_34
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_36
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_35
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_37
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_38
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_39
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_40
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_43
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_42
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_41
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_44
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_45
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_47
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_46
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_49
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_48
+[2025-12-13 09:34:09] REGISTER success: rest_load_user_50
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_32', Amount=100.09
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_34', Amount=100.23
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_43', Amount=100.34
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_33', Amount=100.50
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_34', Amount=100.79
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_31', Amount=100.86
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_33', Amount=100.92
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_36', Amount=100.97
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_32', Amount=101.30
+[2025-12-13 09:34:09] BID PLACED: Lot ID=18, User='rest_load_user_49', Amount=101.46
+[2025-12-13 09:34:10] BID PLACED: Lot ID=18, User='rest_load_user_50', Amount=101.73
+[2025-12-13 09:34:39] LOT DELETED: ID=18, Deleter='LoadTestCreator'
+[2025-12-13 09:59:06] LOGIN success: LoadTestCreator
+[2025-12-13 09:59:06] LOT CREATED: ID=18, Title='REST Stress Test Lot 1765612746', Creator='LoadTestCreator', Start='2025-12-13T07:59:01Z', Duration=5 min
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_2
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_4
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_1
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_6
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_3
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_5
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_9
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_8
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_7
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_12
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_10
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_11
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_13
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_16
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_14
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_15
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_18
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_19
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_20
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_17
+[2025-12-13 09:59:06] LOGIN success: rest_load_user_22
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_21
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_25
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_24
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_28
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_26
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_23
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_27
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_29
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_31
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_30
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_32
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_34
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_40
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_33
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_38
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_36
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_39
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_41
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_44
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_45
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_35
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_37
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_42
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_47
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_48
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_50
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_43
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_49
+[2025-12-13 09:59:07] LOGIN success: rest_load_user_46
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_32', Amount=100.28
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_31', Amount=100.34
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_45', Amount=100.42
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_46', Amount=100.82
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_40', Amount=100.88
+[2025-12-13 09:59:07] BID PLACED: Lot ID=18, User='rest_load_user_44', Amount=101.06
+[2025-12-13 09:59:08] BID PLACED: Lot ID=18, User='rest_load_user_38', Amount=101.20
+[2025-12-13 09:59:08] BID PLACED: Lot ID=18, User='rest_load_user_45', Amount=101.54
+[2025-12-13 09:59:37] LOT DELETED: ID=18, Deleter='LoadTestCreator'
+[2025-12-13 10:04:12] LOGIN success: LoadTestCreator
+[2025-12-13 10:04:12] LOT CREATED: ID=18, Title='REST Stress Test Lot 1765613052', Creator='LoadTestCreator', Start='2025-12-13T08:04:07Z', Duration=5 min
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_2
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_1
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_3
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_4
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_7
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_6
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_5
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_9
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_8
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_10
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_11
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_12
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_13
+[2025-12-13 10:04:12] LOGIN success: rest_load_user_14
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_17
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_15
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_16
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_18
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_19
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_20
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_21
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_22
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_27
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_24
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_25
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_26
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_28
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_23
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_30
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_31
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_29
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_33
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_34
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_32
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_35
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_38
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_39
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_40
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_41
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_37
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_44
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_36
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_45
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_46
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_48
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_42
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_43
+[2025-12-13 10:04:13] LOGIN success: rest_load_user_47
+[2025-12-13 10:04:43] LOT DELETED: ID=18, Deleter='LoadTestCreator'
+[2025-12-13 10:05:08] LOGIN success: LoadTestCreator
+[2025-12-13 10:05:08] LOT CREATED: ID=18, Title='REST Stress Test Lot 1765613108', Creator='LoadTestCreator', Start='2025-12-13T08:05:03Z', Duration=5 min
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_4
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_2
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_1
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_5
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_6
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_7
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_8
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_9
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_10
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_11
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_12
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_13
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_14
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_15
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_16
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_18
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_20
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_17
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_22
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_23
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_25
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_19
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_21
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_24
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_27
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_32
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_30
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_31
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_26
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_28
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_29
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_35
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_36
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_34
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_37
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_39
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_38
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_33
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_42
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_45
+[2025-12-13 10:05:09] LOGIN success: rest_load_user_44
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_46
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_40
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_41
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_47
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_48
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_50
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_43
+[2025-12-13 10:05:10] LOGIN success: rest_load_user_49
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_32', Amount=100.26
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_33', Amount=100.33
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_38', Amount=100.43
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_46', Amount=100.44
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_38', Amount=100.56
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_31', Amount=100.63
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_32', Amount=100.73
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_36', Amount=100.85
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_44', Amount=101.14
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_34', Amount=101.27
+[2025-12-13 10:05:10] BID PLACED: Lot ID=18, User='rest_load_user_41', Amount=101.28
+[2025-12-13 10:05:40] LOT DELETED: ID=18, Deleter='LoadTestCreator'

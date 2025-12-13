@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-59f3ca02a093087d0e17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "client",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-Debug-a98d0d8cb468919fb755.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_autogen-Debug-a58a008bef51d7b898f4.json",
+					"name" : "client_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_autogen_timestamp_deps-Debug-da2791d42607a0bb4c28.json",
+					"name" : "client_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rest_benchmark_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rest_benchmark_app-Debug-8e473c30f8cb70dfa069.json",
+					"name" : "rest_benchmark_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rest_benchmark_app_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rest_benchmark_app_autogen-Debug-5ab684560bb1f22d5949.json",
+					"name" : "rest_benchmark_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rest_benchmark_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rest_benchmark_app_autogen_timestamp_deps-Debug-8823f76f746bc2dfbdc4.json",
+					"name" : "rest_benchmark_app_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Liliana/Desktop/course1/client2",
+		"source" : "C:/Users/Liliana/Desktop/course1/client2/client"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

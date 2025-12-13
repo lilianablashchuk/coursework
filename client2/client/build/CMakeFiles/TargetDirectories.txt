@@ -1,0 +1,12 @@
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/client.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/rest_benchmark_app.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/list_install_components.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/install.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/install/local.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/install/strip.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/client_autogen_timestamp_deps.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/client_autogen.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/rest_benchmark_app_autogen_timestamp_deps.dir
+/mnt/c/Users/Liliana/Desktop/course1/client2/client/build/CMakeFiles/rest_benchmark_app_autogen.dir

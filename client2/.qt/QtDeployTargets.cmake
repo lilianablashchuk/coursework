@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_client_FILE C:/Users/Liliana/Desktop/course1/client2/client.exe)
+set(__QT_DEPLOY_TARGET_client_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_client_RUNTIME_DLLS C:/Qt/6.9.3/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.9.3/mingw_64/bin/Qt6Network.dll;C:/Qt/6.9.3/mingw_64/bin/Qt6Sql.dll;C:/Qt/6.9.3/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.9.3/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_rest_benchmark_app_FILE C:/Users/Liliana/Desktop/course1/client2/rest_benchmark_app.exe)
+set(__QT_DEPLOY_TARGET_rest_benchmark_app_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_rest_benchmark_app_RUNTIME_DLLS C:/Qt/6.9.3/mingw_64/bin/Qt6Network.dll;C:/Qt/6.9.3/mingw_64/bin/Qt6Core.dll)

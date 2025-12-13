@@ -1,0 +1,25 @@
+
+==================================================
+REST API Performance Summary (ms)
+==================================================
+
+Total Requests Recorded: 214
+Test Duration (max): 30 seconds
+File Saved: rest_load_test_summary_20251213_100540.txt
+
+Method               Count    Avg (ms)   Med (ms)   P95 (ms)   StdDev  
+----------------------------------------------------------------------
+CreateLot (Setup)    1        36.34 36.34 36.34 0.00
+Register             51       130.01 155.68 169.40 49.39
+Login (Fallback)     51       423.38 385.70 798.34 227.20
+GetAuctions          63       334.04 175.77 720.38 235.99
+GetLotStatus         37       174.60 142.96 447.12 109.59
+PlaceBid             11       83.13 73.93 127.17 26.38
+
+==================================================
+Raw Bid Metrics
+==================================================
+Metric                                   Value     
+--------------------------------------------------
+Successful Bid Requests (Status OK)      11        
+Total Bid Attempts                       37        

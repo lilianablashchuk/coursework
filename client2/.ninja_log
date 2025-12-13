@@ -1,0 +1,23 @@
+# ninja log v7
+23	1009	7873167095942897	rest_benchmark_app_autogen/timestamp	1039920ded7a288d
+23	1009	7873167095942897	rest_benchmark_app_autogen/mocs_compilation.cpp	1039920ded7a288d
+23	1009	7873167095942897	C:/Users/Liliana/Desktop/course1/client2/rest_benchmark_app_autogen/timestamp	1039920ded7a288d
+23	1009	7873167095942897	C:/Users/Liliana/Desktop/course1/client2/rest_benchmark_app_autogen/mocs_compilation.cpp	1039920ded7a288d
+12	1134	7873167097371271	client_autogen/timestamp	bda71e9f7c00da42
+12	1134	7873167097371271	client_autogen/mocs_compilation.cpp	bda71e9f7c00da42
+12	1134	7873167097371271	C:/Users/Liliana/Desktop/course1/client2/client_autogen/timestamp	bda71e9f7c00da42
+12	1134	7873167097371271	C:/Users/Liliana/Desktop/course1/client2/client_autogen/mocs_compilation.cpp	bda71e9f7c00da42
+1153	4123	7873167098273905	CMakeFiles/client.dir/server_url.cpp.obj	65160a1bc9eef3fa
+1022	5215	7873167096965784	CMakeFiles/rest_benchmark_app.dir/rest_benchmark_main.cpp.obj	d7d02274dda2dade
+1016	5321	7873167096905763	CMakeFiles/rest_benchmark_app.dir/rest_benchmark_app_autogen/mocs_compilation.cpp.obj	6598c94bb3dc29a7
+1026	5657	7873167097008836	CMakeFiles/rest_benchmark_app.dir/rest_benchmark.cpp.obj	3e801e8a7c934f2d
+1141	5893	7873167098162021	CMakeFiles/client.dir/main.cpp.obj	c7499cd3f146144c
+5658	6226	7873167143327986	rest_benchmark_app.exe	77d0390f273713fb
+1161	6370	7873167098363922	CMakeFiles/client.dir/tabs/register_tab.cpp.obj	3e2c06cc36ebc551
+1157	6550	7873167098313932	CMakeFiles/client.dir/tabs/login_tab.cpp.obj	66e2d997cc48a86c
+1166	6657	7873167098403929	CMakeFiles/client.dir/tabs/profile_tab.cpp.obj	a01028cbbada34e1
+1137	6938	7873167098121998	CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.obj	cd8ac402cf5efcf
+1148	7059	7873167098229460	CMakeFiles/client.dir/mainwindow.cpp.obj	d6564a9455992a0d
+1174	7228	7873167098483902	CMakeFiles/client.dir/tabs/lot_window.cpp.obj	4c5092e5657b1681
+1170	7755	7873167098443907	CMakeFiles/client.dir/tabs/auction_tab.cpp.obj	b1c8fc1ec597338
+7755	8670	7873167164305031	client.exe	53aada61557d7f9c
