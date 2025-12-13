@@ -1,0 +1,17 @@
+aiosqlite
+
+# gRPC
+grpcio
+grpcio-tools
+PySide6
+
+# REST  
+Flask
+waitress
+flask-limiter
+flask-talisman
+
+PyJWT
+bcrypt
+psutil
+requests
