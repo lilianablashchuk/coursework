@@ -10,6 +10,7 @@ import jwt
 import threading
 import psutil
 import collections 
+from dotenv import load_dotenv
 
 from flask import Flask, request, jsonify, g
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -24,7 +25,9 @@ DB_NAME = 'auction.db'
 RESPONSE_LOG = "response_log.txt"
 PERF_CSV = "performance_log.txt"
 AUTH_LOG = "auth_log.txt"
-JWT_SECRET = '4da7ef9b6d87f09b08d0102bc0a3a75bb063c88ffeabfaed677bf91869f626decc54e7d7d6626286740c153fe055fc3aad0d4cd0c819bd1e4911b0e5349efe4f'
+
+load_dotenv()
+JWT_SECRET = os.getenv('JWT_SECRET', 'PLEASE_SET_THE_SECRET_KEY_IN_DOTENV_FILE')
 SALT_ROUNDS = 10
 ACCESS_TOKEN_EXPIRY_HOURS = 1
 ACTIVE_VIEWERS = collections.defaultdict(set) 
