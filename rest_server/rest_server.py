@@ -13,8 +13,6 @@ import collections
 
 from flask import Flask, request, jsonify, g
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
 from flask_talisman import Talisman 
 import bcrypt
 
@@ -29,14 +27,8 @@ AUTH_LOG = "auth_log.txt"
 JWT_SECRET = '4da7ef9b6d87f09b08d0102bc0a3a75bb063c88ffeabfaed677bf91869f626decc54e7d7d6626286740c153fe055fc3aad0d4cd0c819bd1e4911b0e5349efe4f'
 SALT_ROUNDS = 10
 ACCESS_TOKEN_EXPIRY_HOURS = 1
-ACTIVE_VIEWERS = {} 
+ACTIVE_VIEWERS = collections.defaultdict(set) 
 
-if not os.path.exists(RESPONSE_LOG):
-    with open(RESPONSE_LOG, "w") as f: f.write("REST Response Log \n")
-if not os.path.exists(PERF_CSV):
-    with open(PERF_CSV, "w") as f: f.write("Time,CPU(%),RAM(MB)\n")
-if not os.path.exists(AUTH_LOG):
-    with open(AUTH_LOG, "w") as f: f.write("Auth Log\n")
 
 
 def get_formatted_time():
@@ -54,10 +46,9 @@ def get_db():
     if 'db' not in g:
         g.db = sqlite3.connect(DB_NAME)
         try:
-            g.db.execute("PRAGMA journal_mode = WAL;")
+            g.db.execute("PRAGMA journal_mode = WAL;") 
             g.db.execute("PRAGMA busy_timeout = 10000;") 
-            logging.info("[DB INIT] SQLite PRAGMA journal_mode set to WAL.")
-            logging.info("[DB INIT] SQLite busy_timeout set to 10 seconds.")
+            logging.info("[DB INIT] SQLite PRAGMA configured.")
         except sqlite3.Error as e:
             logging.warning(f"[DB INIT] Could not configure SQLite DB object: {e}")
             
@@ -130,6 +121,7 @@ def db_all(sql, params=()):
     cursor = db.execute(sql, params)
     return [dict(row) for row in cursor.fetchall()]
 
+
 _perf_timer = None
 _start_time = time.time()
 _total_requests = 0
@@ -178,12 +170,6 @@ def stop_perf_logging():
 
 app = Flask(__name__)
 
-limiter = Limiter(
-    app=app, 
-    key_func=get_remote_address, 
-    storage_uri="memory://",
-    default_limits=["100 per 15 minutes"]
-)
 
 @app.teardown_appcontext
 def close_connection(exception):
@@ -235,7 +221,6 @@ def auth_middleware(f):
 
 
 @app.route('/auth/register/', methods=['POST'])
-@limiter.limit("100/15minute", exempt_when=lambda: not request.path.startswith('/auth/register'), error_message='Too many login attempts, please try again after 15 minutes.')
 def register():
     data = request.get_json()
     username = data.get('username')
@@ -243,7 +228,7 @@ def register():
 
     if not username or len(username) < 3 or not password or len(password) < 6:
         return jsonify({"status": "error", "message": "Validation failed", 
-                         "errors": [{"msg": "Username must be at least 3 chars long and password at least 6."}]}), 400
+                            "errors": [{"msg": "Username must be at least 3 chars long and password at least 6."}]}), 400
 
     try:
         existing_user = db_get("SELECT id FROM users WHERE username = ?", [username])
@@ -269,7 +254,6 @@ def register():
 
 
 @app.route('/auth/login/', methods=['POST'])
-@limiter.limit("100/15minute", exempt_when=lambda: not request.path.startswith('/auth/login'), error_message='Too many login attempts, please try again after 15 minutes.')
 def login():
     data = request.get_json()
     username = data.get('username')
@@ -277,7 +261,7 @@ def login():
 
     if not username or len(username) < 3 or not password or len(password) < 6:
         return jsonify({"status": "error", "message": "Validation failed", 
-                         "errors": [{"msg": "Username must be at least 3 chars long and password at least 6."}]}), 400
+                            "errors": [{"msg": "Username must be at least 3 chars long and password at least 6."}]}), 400
 
     try:
         row = db_get("SELECT id, username, password FROM users WHERE username = ?", [username])
@@ -343,7 +327,6 @@ def list_auctions():
             lot_data = dict(lot)
             lot_id = lot['id']
             
-         
             lot_data['bids'] = bids_map[lot_id]
 
             lot_data['usersPresent'] = len(ACTIVE_VIEWERS.get(lot_id, set()))
@@ -513,7 +496,7 @@ def update_active_viewers(lot_id, username, action):
     lot_id_int = int(lot_id)
     if action == 'join':
         if lot_id_int not in ACTIVE_VIEWERS:
-            ACTIVE_VIEWERS[lot_id_int] = set()
+             ACTIVE_VIEWERS[lot_id_int] = set()
         ACTIVE_VIEWERS[lot_id_int].add(username)
         size = len(ACTIVE_VIEWERS[lot_id_int])
         logging.info(f"[VIEWER JOINED] Lot ID={lot_id_int}, User='{username}'. Total: {size}")
@@ -589,7 +572,6 @@ def place_bid():
             row = dict(row) 
             
             start_time = datetime.fromisoformat(row['startTime'].replace('Z', '+00:00'))
-            duration_ms = row['durationMinutes'] * 60 * 1000
             end_time = start_time + timedelta(minutes=row['durationMinutes'])
             
             current_time = datetime.now(timezone.utc)
@@ -604,6 +586,9 @@ def place_bid():
                 validation_error = {"status": 400, "message": "Auction has already ended."}
             elif bid_amount <= max_bid:
                 validation_error = {"status": 400, "message": f"Bid amount {bid_amount:.2f} must be higher than current max bid {max_bid:.2f}."}
+            elif user == db_get("SELECT creator FROM lots WHERE id = ?", [lot_id_int])['creator']:
+                validation_error = {"status": 400, "message": "Creator cannot bid on their own lot."}
+
 
             if validation_error:
                 raise Exception(f"VALIDATION_FAIL:{validation_error['message']}")
@@ -674,6 +659,13 @@ def internal_error(error):
 
 
 with app.app_context(): 
+    if not os.path.exists(RESPONSE_LOG):
+        with open(RESPONSE_LOG, "w") as f: f.write("REST Response Log \n")
+    if not os.path.exists(PERF_CSV):
+        with open(PERF_CSV, "w") as f: f.write("Time,CPU(%),RAM(MB)\n")
+    if not os.path.exists(AUTH_LOG):
+        with open(AUTH_LOG, "w") as f: f.write("Auth Log\n")
+        
     init_db() 
 
 start_perf_logging()
