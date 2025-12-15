@@ -1,17 +1,15 @@
-aiosqlite
 
-# gRPC
 grpcio
 grpcio-tools
-PySide6
-
-# REST  
+PySide6 
 Flask
 waitress
-flask-limiter
 flask-talisman
-
+dotenv
 PyJWT
 bcrypt
 psutil
 requests
+passlib
+aiosqlite
+
