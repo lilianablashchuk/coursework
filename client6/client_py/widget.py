@@ -2,6 +2,7 @@
 import sys
 import subprocess
 import grpc
+import os
 from PySide6.QtWidgets import (
     QApplication, QWidget, QMainWindow, QVBoxLayout, QHBoxLayout,
     QListWidget, QLineEdit, QPushButton, QMessageBox, QLabel,
@@ -16,10 +17,11 @@ from datetime import datetime, timedelta, timezone
 import auction_pb2
 import auction_pb2_grpc
 
-FIXED_WINDOWS_HOST_IP = "172.26.48.1"
+DEFAULT_HOST = '127.0.0.1'
+SERVER_HOST = os.getenv('SERVER_HOST', DEFAULT_HOST)
 
 def get_server_address(port=50051):
-    return f"{FIXED_WINDOWS_HOST_IP}:{port}"
+    return f"{SERVER_HOST}:{port}"
 
 SERVER_ADDRESS = get_server_address()
 
