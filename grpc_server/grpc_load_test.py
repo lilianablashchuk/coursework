@@ -8,11 +8,14 @@ import sys
 from datetime import datetime, timedelta, timezone
 from statistics import mean, stdev
 import grpc 
+import os
 
 import auction_pb2
 import auction_pb2_grpc
 
-SERVER_ADDRESS = '127.0.0.1:50051'
+SERVER_HOST = os.getenv('SERVER_HOST', '127.0.0.1')
+SERVER_ADDRESS = f'{SERVER_HOST}:50051' 
+
 CHANNEL_OPTIONS = [('grpc.max_receive_message_length', 1024 * 1024 * 5)]
 
 NUMBER_OF_TOTAL_USERS = 50 
@@ -62,7 +65,7 @@ async def setup_users(stub, count):
     registration_tasks = []
     for i in range(1, count + 1):
         username = f"{BASE_USERNAME}{i}"
-        password = "password123"
+        password = "testpass"
         registration_tasks.append(register_user_async(stub, username, password))
     
     results = await asyncio.gather(*registration_tasks)
@@ -97,7 +100,7 @@ async def register_user_async(stub, username, password):
 async def scenario_write_heavy(user_id, lot_id_to_bid_on, duration): 
     global BID_ATTEMPTS, BID_SUCCESS
     username = f"{BASE_USERNAME}{user_id}"
-    password = "password123"
+    password = "testpass"
     
     async with grpc_aio.insecure_channel(SERVER_ADDRESS, options=CHANNEL_OPTIONS) as channel:
         stub = auction_pb2_grpc.AuctionServiceStub(channel)
